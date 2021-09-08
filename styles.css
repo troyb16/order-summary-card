@@ -18,7 +18,7 @@ h1 {
 }
 
 .card-contents {
-    padding: 10px 20px 20px 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 img {
@@ -45,7 +45,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     margin: 3px 3px 20px 3px;
-    padding: 15px 10px 15px 10px;
+    padding: 15px 12px 15px 12px;
     border-radius: 10px;
     background-color: hsl(225, 100%, 98%);
 }
@@ -81,6 +81,28 @@ img {
     flex-direction: column;
 }
 
+.proceed {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 11px;
+    padding: 16px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    filter: drop-shadow(0 6mm 4mm hsla(245, 75%, 52%, 0.212));
+}
+
+.cancel {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+    color: rgb(126, 124, 143);
+}
 
 .attribution { 
     font-size: 11px; 
