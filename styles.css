@@ -37,11 +37,43 @@ img {
     font-weight: 500;
     color: rgb(126, 124, 143);
     line-height: 1.7;
+    margin-bottom: 0px;
 }
 
 .price {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 3px 3px 20px 3px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.music-note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan {
+    line-height: 0.5;
+}
+
+.plan h2 {
+    font-size: 14px;
+}
+
+.plan p {
+    font-size: 14px;
+    color: rgb(126, 124, 143);
+}
+
+.change {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .buttons {
