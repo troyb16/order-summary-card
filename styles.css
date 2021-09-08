@@ -3,25 +3,40 @@ body {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-p {
-    font-size: 16px;
+h1 {
+    font-size: 22px;
+    font-weight: 900;
 }
 
 .card {
     background-color: white;
     border: hidden;
-    border-radius: 15px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    
+    margin: 70px 15px 0px 15px;
 }
 
-.image {
-    
+.card-contents {
+    padding: 10px 20px 20px 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .description {
     text-align: center;
+    padding: 0px 15px 20px 15px;
+}
+
+.description p {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(126, 124, 143);
+    line-height: 1.7;
 }
 
 .price {
@@ -29,11 +44,16 @@ p {
     flex-direction: row;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .attribution { 
     font-size: 11px; 
     text-align: center;
-    padding: 1rem;
+    margin-bottom: 50px;
 }
 
 .attribution a { 
