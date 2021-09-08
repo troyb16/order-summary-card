@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+.card {
+    background-color: white;
+    border: hidden;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.image {
+    
+}
+
+.description {
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 1rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
